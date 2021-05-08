@@ -2,7 +2,7 @@
  * @Author: Liu Yuchen
  * @Date: 2021-05-08 02:48:43
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-05-08 09:03:00
+ * @LastEditTime: 2021-05-08 10:27:16
  * @Description:
  * @FilePath: /spike_system/controller/authUser.go
  * @GitHub: https://github.com/liuyuchen777
@@ -10,7 +10,6 @@
 package controller
 
 import (
-	"fmt"
 	"log"
 	"net/http"
 	"spike_system/model"
@@ -23,6 +22,10 @@ import (
 type LoginUser struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
+}
+
+type LogoutUser struct {
+	Username string `json:"username"`
 }
 
 func Login(c *gin.Context) {
@@ -61,16 +64,18 @@ func Login(c *gin.Context) {
 }
 
 func Logout(c *gin.Context) {
+	var user LogoutUser
+	c.BindJSON(&user)
 	// logout function
 	session := sessions.Default(c)
 	if cookie, err := c.Request.Cookie("session_id"); err == nil {
 		// have cookie
 		value := cookie.Value
-		fmt.Println(value)
+		// fmt.Println(value)
 		session.Delete(value)
 		session.Save()
 		c.JSON(http.StatusOK, gin.H{
-			"info": "Logout Successfully!",
+			"info": user.Username + " Logout Successfully!",
 		})
 	} else {
 		// something strange happened, no session but login

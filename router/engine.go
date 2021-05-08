@@ -2,7 +2,7 @@
  * @Author: Liu Yuchen
  * @Date: 2021-05-08 02:28:43
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-05-08 08:36:19
+ * @LastEditTime: 2021-05-08 10:57:26
  * @Description:
  * @FilePath: /spike_system/router/engine.go
  * @GitHub: https://github.com/liuyuchen777
@@ -22,7 +22,7 @@ import (
 )
 
 func InitEngine() *gin.Engine {
-	r := gin.Default()
+	r := gin.New()
 
 	// set config
 	config, err := config.GetAppConfig()
