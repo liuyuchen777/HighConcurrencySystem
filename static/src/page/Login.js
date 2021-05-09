@@ -2,13 +2,14 @@
  * @Author: Liu Yuchen
  * @Date: 2021-05-08 01:00:39
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-05-08 01:59:15
+ * @LastEditTime: 2021-05-08 23:55:57
  * @Description: 
- * @FilePath: /frontend/src/page/Login.js
+ * @FilePath: /spike_system/static/src/page/Login.js
  * @GitHub: https://github.com/liuyuchen777
  */
 import React from 'react'
 import axios from 'axios'
+import { withRouter } from 'react-router-dom'
 
 class Login extends React.Component {
   constructor(props) {
@@ -29,17 +30,26 @@ class Login extends React.Component {
     // check
     if (this.state.username === "") {
       alert("Please enter username!")
+      return
     } else if (this.state.password === "") {
       alert("Please enter password!")
+      return
     }
 
     // communicate with backend to verify
-    axios.post('/api/login', {
+    axios.post('/api/auth/login', {
       username: this.state.username,
       password: this.state.password
     })
     .then((response) => {
-      console.log(response)
+      console.log(response.data.info)
+      if (response.data.info === "Login Success!") {
+        // jump to main page
+        console.log("I am going to main!")
+        this.props.history.push('/main')
+      } else {
+        alert(response.data.info)
+      }
     })
   }
 
@@ -66,4 +76,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login
+export default withRouter(Login)

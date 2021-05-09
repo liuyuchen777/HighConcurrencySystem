@@ -2,14 +2,15 @@
  * @Author: Liu Yuchen
  * @Date: 2021-05-08 00:59:05
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-05-08 01:23:23
+ * @LastEditTime: 2021-05-09 00:01:47
  * @Description: 
- * @FilePath: /frontend/src/MyIndex.js
+ * @FilePath: /spike_system/static/src/page/MyIndex.js
  * @GitHub: https://github.com/liuyuchen777
  */
 
 import React from 'react'
 import { Link } from "react-router-dom"
+import Footer from '../compoents/Footer'
 
 class Index extends React.Component {
   constructor(props) {
@@ -29,6 +30,7 @@ class Index extends React.Component {
         </Link>
         <br />
         <button className="btn btn-fix" style={{ width: "8em" }}>Register</button>
+        <Footer />
       </div>
       </center>
     )
