@@ -1,0 +1,24 @@
+version: "2"
+services:
+  mysql-service:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    restart: 'always'
+    environment:
+      MYSQL_ROOT_PASSWORD: "LYClyc7758321321!"
+      MYSQL_DATABASE: "spike_system"
+  redis-service:
+    image: redis
+    command: redis-server --requirepass 123456
+    ports:
+      - "6379:6379"
+    restart: 'always'
+  seckill:
+    restart: 'always'
+    image: hub.docker.com/repository/docker/liuyuchen777/spike_system
+    ports:
+      - "9090:9090"
+    links:
+      - mysql-service:mysql
+      - redis-service:redis

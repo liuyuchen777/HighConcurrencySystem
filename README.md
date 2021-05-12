@@ -2,9 +2,9 @@
  * @Author: Liu Yuchen
  * @Date: 2021-05-08 09:59:49
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-05-08 12:25:23
+ * @LastEditTime: 2021-05-12 15:05:07
  * @Description: 
- * @FilePath: /spike_system/README.md
+ * @FilePath: /Local_Lab/spike_system/README.md
  * @GitHub: https://github.com/liuyuchen777
 -->
 # Spike Buy System
@@ -26,6 +26,10 @@ This is a project base on Golang Gin framework which is able to withstand extrem
 * ORM: GORM
 
 * DevOps: Docker + Docker Compose (Under Construct)
+
+## System Structure
+
+![System Architecture](./README_assets/sa.jpg)
 
 ## Performance
 
