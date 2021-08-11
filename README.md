@@ -7,7 +7,7 @@
  * @FilePath: /Local_Lab/spike_system/README.md
  * @GitHub: https://github.com/liuyuchen777
 -->
-# Spike Buy System
+# Super-High Concurrency System
 
 ## Intro
 
