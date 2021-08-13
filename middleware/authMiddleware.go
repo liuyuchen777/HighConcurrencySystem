@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 10:24:45
  * @Description:
- * @FilePath: /spike_system/middleware/authMiddleware.go
+ * @FilePath: /super_high_concurrency_system/middleware/authMiddleware.go
  * @GitHub: https://github.com/liuyuchen777
  */
 

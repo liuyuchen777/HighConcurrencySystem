@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 06:58:27
  * @Description:
- * @FilePath: /spike_system/model/buyRecord.go
+ * @FilePath: /super_high_concurrency_system/model/buyRecord.go
  * @GitHub: https://github.com/liuyuchen777
  */
 

@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 08:58:26
  * @Description:
- * @FilePath: /spike_system/model/redis.go
+ * @FilePath: /super_high_concurrency_system/model/redis.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package model
@@ -12,7 +12,7 @@ package model
 import (
 	"fmt"
 	"log"
-	"spike_system/config"
+	"super_high_concurrency_system/config"
 	"strconv"
 
 	"github.com/go-redis/redis/v7"

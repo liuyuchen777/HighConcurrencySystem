@@ -4,17 +4,17 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 10:57:26
  * @Description:
- * @FilePath: /spike_system/router/engine.go
+ * @FilePath: /super_high_concurrency_system/router/engine.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package router
 
 import (
-	"spike_system/config"
-	"spike_system/controller"
-	"spike_system/middleware"
-	"spike_system/model"
-	"spike_system/routine"
+	"super_high_concurrency_system/config"
+	"super_high_concurrency_system/controller"
+	"super_high_concurrency_system/middleware"
+	"super_high_concurrency_system/model"
+	"super_high_concurrency_system/routine"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"

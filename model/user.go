@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 09:04:34
  * @Description:
- * @FilePath: /spike_system/model/user.go
+ * @FilePath: /super_high_concurrency_system/model/user.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package model

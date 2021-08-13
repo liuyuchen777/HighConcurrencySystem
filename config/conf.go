@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 08:33:34
  * @Description:
- * @FilePath: /spike_system/config/conf.go
+ * @FilePath: /super_high_concurrency_system/config/conf.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package config

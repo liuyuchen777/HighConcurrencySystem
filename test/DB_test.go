@@ -4,15 +4,15 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 06:21:32
  * @Description:
- * @FilePath: /spike_system/test/DB_test.go
+ * @FilePath: /super_high_concurrency_system/test/DB_test.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package test
 
 import (
 	"fmt"
-	"spike_system/config"
-	"spike_system/model"
+	"super_high_concurrency_system/config"
+	"super_high_concurrency_system/model"
 
 	"testing"
 )

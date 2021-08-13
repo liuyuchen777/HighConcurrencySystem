@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 03:20:01
  * @Description:
- * @FilePath: /spike_system/utils/shr256.go
+ * @FilePath: /super_high_concurrency_system/utils/shr256.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package utils

@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 06:36:50
  * @Description:
- * @FilePath: /spike_system/model/product.go
+ * @FilePath: /super_high_concurrency_system/model/product.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package model

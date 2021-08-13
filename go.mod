@@ -1,4 +1,4 @@
-module spike_system
+module super_high_concurrency_system
 
 go 1.16
 

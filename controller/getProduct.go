@@ -4,15 +4,15 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 08:33:00
  * @Description:
- * @FilePath: /spike_system/controller/getProduct.go
+ * @FilePath: /super_high_concurrency_system/controller/getProduct.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package controller
 
 import (
 	"net/http"
-	"spike_system/model"
-	"spike_system/routine"
+	"super_high_concurrency_system/model"
+	"super_high_concurrency_system/routine"
 
 	"github.com/gin-gonic/gin"
 )

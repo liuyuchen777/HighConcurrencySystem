@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 10:27:16
  * @Description:
- * @FilePath: /spike_system/controller/authUser.go
+ * @FilePath: /super_high_concurrency_system/controller/authUser.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package controller
@@ -12,8 +12,8 @@ package controller
 import (
 	"log"
 	"net/http"
-	"spike_system/model"
-	"spike_system/utils"
+	"super_high_concurrency_system/model"
+	"super_high_concurrency_system/utils"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"

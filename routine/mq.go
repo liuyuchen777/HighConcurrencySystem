@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 08:49:55
  * @Description:
- * @FilePath: /spike_system/routine/mq.go
+ * @FilePath: /super_high_concurrency_system/routine/mq.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package routine
@@ -12,7 +12,7 @@ package routine
 import (
 	"fmt"
 	"log"
-	"spike_system/model"
+	"super_high_concurrency_system/model"
 )
 
 const maxMessageNum = 20000

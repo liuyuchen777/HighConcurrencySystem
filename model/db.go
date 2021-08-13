@@ -4,7 +4,7 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 08:37:06
  * @Description:
- * @FilePath: /spike_system/model/db.go
+ * @FilePath: /super_high_concurrency_system/model/db.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package model
@@ -16,7 +16,7 @@ import (
 	"gorm.io/gorm"
 
 	"fmt"
-	"spike_system/config"
+	"super_high_concurrency_system/config"
 )
 
 var db *gorm.DB

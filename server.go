@@ -4,13 +4,13 @@
  * @LastEditors: Liu Yuchen
  * @LastEditTime: 2021-05-08 06:33:23
  * @Description:
- * @FilePath: /spike_system/spike_system.go
+ * @FilePath: /super_high_concurrency_system/super_high_concurrency_system.go
  * @GitHub: https://github.com/liuyuchen777
  */
 package main
 
 import (
-	"spike_system/router"
+	"super_high_concurrency_system/router"
 )
 
 const port = "9090"
